@@ -65,3 +65,10 @@
   /* Support for IE. */
   font-feature-settings: 'liga';
 }
+
+@font-face {
+    font-family: "montserrat-light";
+    font-style: normal;
+    font-weight: normal;
+    src: url("../fonts/montserrat-light-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/montserrat-light-webfont.woff2") format("woff2"), url("../fonts/montserrat-light-webfont.woff") format("woff"), url("../fonts/montserrat-light-webfont.ttf") format("truetype");
+}
