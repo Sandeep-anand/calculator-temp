@@ -127,9 +127,8 @@ body{ margin:0; padding:0; font-size:14px;}
 .map-hide{ margin: 85px auto 0px;width: 450px;}
 .btn-redmap{ background:#000 !important;margin: 10px;margin-bottom:20px; border-radius: 0; color: #ee402a;font-size: 14px; letter-spacing: 0.02em;line-height: 20px !important;padding: 10px 26px;transition: all 200ms ease-in 0s;}
 .btn-redmap:hover{background:#d34432; color:#fff;}
-.cal-map-right{ background: #070d13;height: 100%;margin-top: 54px; position: fixed; right: 0; top: 0;width: 30%;z-index: 999; padding:40px 2px 40px 15px; -webkit-box-shadow: inset 181px 163px 9px -176px rgba(0,0,0,0.75);-moz-box-shadow: inset 181px 163px 9px -176px rgba(0,0,0,0.75);
+.cal-map-right{ background: #070d13;height: 100%;margin-top: 38px; position: fixed; right: 0; top: 0;width: 30%;z-index: 999; padding:40px 2px 40px 15px; -webkit-box-shadow: inset 181px 163px 9px -176px rgba(0,0,0,0.75);-moz-box-shadow: inset 181px 163px 9px -176px rgba(0,0,0,0.75);
     box-shadow: inset 181px 163px 9px -176px rgba(0,0,0,0.75);}
-.mapright-heading{display:block; font-size:12px; font-family:Montserrat; color:#afb3b7;text-transform:uppercase;}
 .mapright-total{float:left; width:100%; margin-top:0px; margin-bottom:35px;}
 .total-icon{font-size:36px; color:#afb3b7;margin-top:15px; float:left;}
 .mapright-outr{float:left;width:80%; margin-left:10px;}
