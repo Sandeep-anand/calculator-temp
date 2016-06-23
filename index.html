@@ -8,10 +8,13 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="css/font-awesome.css" rel="stylesheet">
     <link href="css/fonts.css" rel="stylesheet">
+    <link href="css/bootstrap-datepicker.min.css" rel="stylesheet">
+    <link href="css/selectize.default.css" rel="stylesheet">
+    <link href="css/bootstrap-slider.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
 </head>
 
-<body  class="template001">
+<body class="template001">
     <section class="main-bg" data-slide="1">
         <header>
             <div class="col-md-12 col-sm-12 col-xs-12">
@@ -80,7 +83,7 @@
     </section>
     <div class="question-page">
         <div class=" col-md-8 col-md-offset-2">
-            <div class="  col-md-12 slide hide" data-slide="2">
+            <div class="  col-md-12 slide hide" data-slide="4">
                 <div class="question-head">Design</div>
                 <div class="question-subhead">Tell us a little bit more about project, so we can find the perfect teams for you!
                 </div>
@@ -152,7 +155,7 @@
                     <button class="btn prime-action next-step">Next</button>
                 </div>
             </div>
-            <div class="col-md-12 slide hide" data-slide="4">
+            <div class="col-md-12 slide hide" data-slide="5">
                 <div class="question-head">Design</div>
                 <div class="question-subhead">Tell us a little bit more about project, so we can find the perfect teams for you!
                 </div>
@@ -173,8 +176,8 @@
                         <div class="">
                             <div class="section-head">Question with a numeric textbox.</div>
                             <div class="section-desc"></div>
-                            <span>€ 10 </span>
-                            <input id="range-slider1" data-slider-id='ex1Slider' type="text" data-slider-min="0" data-slider-max="20" data-slider-step="1" data-slider-value="14" /><span> € 1000</span>
+                            <span class="range">€ 10 </span>
+                            <input id="range-slider1" data-slider-id='ex1Slider' type="text" data-slider-min="0" data-slider-max="20" data-slider-step="1" data-slider-value="14" /><span class="range range-max"> € 1000</span>
                         </div>
                     </div>
                     <div class="question-components">
@@ -183,6 +186,40 @@
                             <div class="section-desc"></div>
                             <div class="input-field">
                                 <input id="last_name" type="text">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 text-center">
+                    <button class="btn prime-action next-step">Next</button>
+                </div>
+            </div>
+            <div class="col-md-12 slide hide" data-slide="2">
+                <div class="question-head">Design</div>
+                <div class="question-subhead">Tell us a little bit more about project, so we can find the perfect teams for you!
+                </div>
+                <div class="question-section">
+                    <div class="question-components">
+                        <div class="">
+                            <div class="section-head">Question with a numeric textbox.</div>
+                            <div class="section-desc"></div>
+                            <div class="date">
+                                <input type="text" class=""><span class="input-group-addon input-icon"><i class="material-icons">event</i></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="question-components">
+                        <div class="">
+                            <div class="section-head">Question with a numeric textbox.</div>
+                            <div class="section-desc"></div>
+                            <div class="control-group">
+                                <select id="select-beast" class="demo-default" placeholder="Select">
+                                    <option value="">Select</option>
+                                    <option value="4">Thomas Edison</option>
+                                    <option value="1">Nikola</option>
+                                    <option value="3">Nikola Tesla</option>
+                                    <option value="5">Arnold Schwarzenegger</option>
+                                </select>
                             </div>
                         </div>
                     </div>
@@ -345,8 +382,20 @@
     ================================================== -->
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <!-- vmap script -->
+    <script src="js/bootstrap-datepicker.min.js"></script>
+    <script src="js/bootstrap-slider.min.js"></script>
+    <script src="js/selectize.min.js"></script>
     <script type="text/javascript">
+    $('.date').datepicker({});
+    $('#select-beast').selectize({
+        create: true,
+        sortField: {
+            field: 'text',
+            direction: 'asc'
+        },
+        dropdownParent: 'body'
+    });
+
     /*Next Prev Button Funtionality */
     var step_no = 1;
     $(document).on('click', '.next-step', function(e) {
@@ -362,15 +411,8 @@
         formatter: function(value) {
             return 'Current value: ' + value;
         }
+
     });
-
-
-
-
-
-
-
-
     jQuery(document).ready(function() {
 
         var region1 = {
