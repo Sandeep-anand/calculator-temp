@@ -346,22 +346,22 @@
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
 	<script type="text/javascript">
-    /*Next Prev Button Funtionality */
-    var step_no = 1;
-    $(document).on('click', '.next-step', function(e) {
-        step_no++;
-        // console.log(step_no);
-        // For Showing the slide of next step
-        $(this).hide();
-        $('*[data-slide="' + step_no + '"]').removeClass('hide');
-    });
-    /*End of Next Prev Button Funtionality */
+		/*Next Prev Button Funtionality */
+		var step_no = 1;
+		$(document).on('click', '.next-step', function(e) {
+			step_no++;
+			// console.log(step_no);
+			// For Showing the slide of next step
+			$(this).hide();
+			$('*[data-slide="' + step_no + '"]').removeClass('hide');
+		});
+		/*End of Next Prev Button Funtionality */
 
-    $('#range-slider1').slider({
-        formatter: function(value) {
-            return 'Current value: ' + value;
-        }
-    });
+		$('#range-slider1').slider({
+			formatter: function(value) {
+				return 'Current value: ' + value;
+			}
+		});
 	</script>
 
   </body>
