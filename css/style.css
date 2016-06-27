@@ -199,6 +199,7 @@ header .logo span {
 .template001 .question-components {
     width: 100%;
     display: inline-block;
+	margin-bottom:10px;
 }
 
 .question-components .check-comp label{ margin-bottom:0;}
@@ -386,7 +387,7 @@ textarea.materialize-textarea {
 
 .input-field {
     position: relative;
-    margin-top: 1rem;
+    margin-top: 1rem; max-height:54px;
 }
 
 .file-field input[type=file] {
@@ -410,6 +411,7 @@ textarea.materialize-textarea {
     color: #00aea5;
     font-size: 24px;
     text-align: left;
+	z-index:-1;
 }
 
 .file-field input[type=text] {
