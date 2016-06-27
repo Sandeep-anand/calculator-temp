@@ -81,16 +81,32 @@
             </div>
         </section>
     </section>
+	<div class="questions-header" >
+		<header>
+			<div class="col-md-12 col-sm-12 col-xs-12 p-right0">
+				<div class="col-md-10 col-sm-6 col-xs-12 logo">
+					<a href="#">
+						<img src="images/logo.png" alt="Company Logo">
+					</a>
+				</div>
+				<div class="col-md-2 col-sm-6 col-xs-12 right-sec">
+					<i class=" material-icons">zmdi_info</i>
+					<p>your app estimate</p>
+					<span>$500 - $1500</span>
+				</div>
+			</div>
+		</header>
+	</div>	
     <section class="page2 hide">
 		<div class="question-page">
         <div class=" col-md-8 col-md-offset-2">
-            <div class="  col-md-12" >
+            <div class="col-md-12" >
                 <div class="question-head">Design</div>
                 <div class="question-subhead">Tell us a little bit more about project, so we can find the perfect teams for you!
                 </div>
                 <div class="question-section">
                     <div class="question-components">
-                        <div class="">
+                        <div class="check-comp">
                             <div class="section-head">Question with a numeric textbox.</div>
                             <div class="section-desc"></div>
                             <label class="check-icon">
@@ -108,7 +124,7 @@
                                 <label for="checklist3"> </label>
                                 <div> Android</div>
                             </label>
-                            <label class="check-icon checklist-icon">
+                            <label class="check-icon checklist-icon last">
                                 <input type="checkbox" value="Value1 " name="checkbox1" id="checklist4">
                                 <label for="checklist4"> </label>
                                 <div> Android</div>
@@ -132,7 +148,7 @@
                 </div>
                 <div class="question-section">
                     <div class="question-components">
-                        <div class="">
+                        <div class="check-comp">
                             <div class="section-head">Question with a numeric textbox.</div>
                             <div class="section-desc"></div>
                             <label class="check-icon ic">
@@ -150,7 +166,7 @@
                                 <label for="check7"> <i class="material-icons">tablet</i> </label>
                                 <div>Tablet</div>
                             </label>
-                            <label class="check-icon ic">
+                            <label class="check-icon ic last">
                                 <input type="checkbox" value="Value1 " name="checkbox1" id="check8">
                                 <label for="check8"><i class="material-icons">desktop_mac</i> </label>
                                 <div>Desktop</div>
@@ -269,7 +285,16 @@
 		}, 1000);
 		
 	});
-    
+	$(window).scroll(function() {
+        //alert($(this).scrollTop());
+        if ($(this).scrollTop() > 655) {
+            $(".questions-header").addClass("que-fixed");
+        }
+        else {
+			$(".questions-header").removeClass("que-fixed");
+        }
+    });
+	
 </script>
 </body>
 </html>

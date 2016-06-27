@@ -78,7 +78,7 @@ header .logo span {
     font-family: montserratregular;
     font-size: 18px;
     color: #fff;
-    margin-top: 30px;
+    margin-top: 20px;
     padding: 10px 4%;
     background: #00aea5;
     border-radius: 0 !important;
@@ -155,14 +155,23 @@ header .logo span {
 
 
 /*theme style*/
-.question-sec{}
-.question-sec header{ background:#161a29; float:left; width:100%;} 
+.questions{}
+.questions-header header{ background:#161a29; float:left; width:100%; padding:0;} 
+.questions-header header .p-right0{ padding-right:0;}
+.questions-header header .logo {float: left; padding:10px; }
+.questions-header header .right-sec {float: left; background:#00aea5; min-height:70px; padding:13px 10px 10px 2% ; position:relative; }
+.questions-header header .right-sec i{ font-size:20px;color:#fff; position:absolute; left:-72px;}
+.questions-header header .right-sec p{ float:left; font-size:11px;color:#fff; padding-left:26px; font-family: montserratregular; margin-bottom:5px;  }
+.questions-header header .right-sec span{ float:left; font-size:20px;color:#fff; font-family: montserratregular; padding-left:5px; }
+.que-fixed{position: fixed;top: 0; width: 100%; z-index:9;}
+.question-page{padding-top:7%;}
+
 .template001 .question-head {
     font-family: montserratregular;
     font-size: 36px;
     text-align: center;
     color: #232f3f;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
 }
 
 .template001 .question-subhead {
@@ -179,12 +188,12 @@ header .logo span {
     width: 100%;
     border: 3px solid #dcdddf;
     display: inline-block;
-    padding: 50px 50px 30px 50px;
+    padding: 30px 40px;
 }
 
 .template001 .section-head {
     font-size: 22px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .template001 .question-components {
@@ -192,6 +201,7 @@ header .logo span {
     display: inline-block;
 }
 
+.question-components .check-comp label{ margin-bottom:0;}
 .slide {
     margin: 60px 0px 30px 0px;
 }
@@ -207,14 +217,16 @@ header .logo span {
 
 .check-icon {
     width: 100%;
-    padding: 15px 20px;
+    padding: 8px 15px;
     border: 2px solid #eee;
     font-size: 16px;
     font-weight: normal;
     line-height: 16px;
-    margin-bottom: 12px;
+	border-bottom: 0;
 }
+.check-icon.last {border: 2px solid #eee;}
 
+.check-icon:hover, .check-icon.last:hover{ background:#f9f9f9; cursor:pointer;}
 .check-icon input[type="checkbox"] {
     left: -9999px;
     position: absolute;
