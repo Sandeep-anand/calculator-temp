@@ -1029,6 +1029,7 @@ a.green-head:active {
 	background:#eeeeee;
 	min-height:600px;
 	float:left;
+	margin:0 auto;
 	height:100% !important;
 	border-left:1px solid #dfdfdf;
 }
@@ -1075,10 +1076,9 @@ a.green-head:active {
     float: left;
 }
 .result-section .bottom-section{
-	margin-right: 55px;
-    margin-left: 70px;
-    margin-top: 30px;
-    margin-bottom: 30px;
+	text-align:center;
+	color:#b7b7b7;
+	font-size:12px;
 }
 .result-section .button-style{
 	background-color: #f9f9f9;
@@ -1094,5 +1094,29 @@ a.green-head:active {
     border: 2px solid #00afa5;
 	text-decoration: none !important;
 }
-
+.result-section .right-section{
+	background:#eeeeee;
+	min-height:600px;
+	float:left;
+	margin:0 auto;
+	height:100% !important;
+	border-left:1px solid #dfdfdf;
+}
+.result-section .right-section .mlr{
+	margin-left:10px;
+	margin-right:10px;
+}
+.result-section .right-section h3{
+	color:#00aea7;
+}
+.result-section .right-section i{
+	font-size:22px;
+}
+.result-section .right-section h4{
+	color:#999999;
+	font-size:17px;
+}
+.result-section .right-section span{
+	color:#7b7d7c;
+}
 /*Result Section Style */
