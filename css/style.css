@@ -929,7 +929,14 @@ a.green-head:active {
 }
 
 
-
+.datepicker table tr td.active, .datepicker table tr td.active.disabled, .datepicker table tr td.active.disabled:hover, .datepicker table tr td.active:hover {
+    background-color: #006dcc !important;
+    background-image: -moz-linear-gradient(to bottom,#00aea5,#03a29a);
+    background-image: -ms-linear-gradient(to bottom,#00aea5,#03a29a);
+    background-image: -webkit-gradient(linear,0 0,0 100%,from(#00aea5),to(#03a29a));
+    background-image: -webkit-linear-gradient(to bottom,#00aea5,#03a29a);
+    background-image: -o-linear-gradient(to bottom,#00aea5,#03a29a);
+}
 
 
 
