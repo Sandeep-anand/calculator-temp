@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Examples for bootstrap-slider plugin">
+    <meta name="author" content="">
+
+    <title>Slider for Bootstrap Examples Page</title>
+
+    <!-- core CSS -->
+    <link href="dependencies/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-slider.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet" type="text/css" >
+    <!-- Custom styles for this template -->
+	<style>
+		
+		</style>
+	<script type='text/javascript' src="dependencies/js/modernizr.js"></script>
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="../../assets/js/html5shiv.js"></script>
+      <script src="../../assets/js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="container">
+		<div class="examples">
+			<div class='slider-example'>
+				<div class="well1">
+					<input id="ex1" data-slider-id='ex1Slider' type="text" data-slider-min="-5" data-slider-max="20" data-slider-step="1" data-slider-value="14"/>
+				</div>
+			</div>
+		</div> <!-- /examples -->
+		<div class='slider-example'>
+			<div class="well1">
+				<input id="ex13" type="text"/>
+			</div>
+		</div>
+		<div class='slider-example'>
+			 <div class="well1">
+				<input id="ex20" type="text"
+					data-provide="slider"
+					data-slider-ticks="[1, 2, 3, 4, 5]"
+					data-slider-ticks-labels='["poor", "not bad", "average" , "good" , "great"]'
+					data-slider-min="1"
+					data-slider-max="5"
+					data-slider-step="1"
+					data-slider-value="5"
+					data-slider-tooltip="hide" />
+			</div>
+		</div>
+
+    </div> <!-- /container -->
+
+
+    <!-- core JavaScript
+    ================================================== -->
+    <script type='text/javascript' src="dependencies/js/jquery.min.js"></script>
+    <script type='text/javascript' src="js/bootstrap-slider.js"></script>
+    <script type='text/javascript'>
+    	$(document).ready(function() {
+    		/* Example 1 */
+	    	$('#ex1').slider({
+	          	formatter: function(value) {
+	            	return 'value: ' + value;
+	          	}
+	        });
+			/* Example 13 */
+			$("#ex13").slider({
+				ticks: [0, 100, 200, 300, 400],
+				ticks_labels: ['Poor', '', '', '', 'Great'],
+				ticks_snap_bounds: 30,
+				value: 200
+			});
+			$('#ex20a').on('click', function(e) {
+				$('#ex20a')
+					.parent()
+					.find(' >.well')
+					.toggle()
+					.find('input')
+					.slider('relayout');
+				e.preventDefault();
+			});
+			});
+    </script>
+    <!-- Placed at the end of the document so the pages load faster -->
+  </body>
+</html>
