@@ -48,6 +48,7 @@ header .logo span {
 	display: table-cell;
     vertical-align: middle;
     height: 72vh;
+	text-align:center;
 }
 
 .landing-page .main-head {
@@ -154,7 +155,8 @@ header .logo span {
 
 
 /*theme style*/
-
+.question-sec{}
+.question-sec header{ background:#161a29; float:left; width:100%;} 
 .template001 .question-head {
     font-family: montserratregular;
     font-size: 36px;
