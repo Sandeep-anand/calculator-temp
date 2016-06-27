@@ -1044,16 +1044,26 @@ a.green-head:active {
 .np{
 	padding:0px; 
 }
+.mt30{ 
+	margin-top: 30px !important;
+}
+.mb30{ 
+	margin-bottom: 30px !important;
+}
+.c{text-align:center;}
 .result-section .middle-section{
 	width:80%;
+	margin:0 auto;
 	min-height:300px;
 	background:#e0e1e3;
 	color:#c7c8ca;
 	font-size:12px;
-	margin-right: 55px;
-    margin-left: 70px;
-    margin-top: 30px;
-    margin-bottom: 30px;
+   
+}
+.result-section .mid{
+	width: 100%;
+    margin: 0 auto;
+    float: left;
 }
 .result-section .bottom-section{
 	margin-right: 55px;
@@ -1063,15 +1073,17 @@ a.green-head:active {
 }
 .result-section .button-style{
 	background-color: #f9f9f9;
-    color: black;
+    color: #999999;
 	padding: 10px 40px;
     border: 2px solid #999999;
+	text-decoration: none !important;
 }
 .result-section .button-style1{
 	background-color: #f9f9f9;
     color: #00afa5;
 	padding: 10px 40px;
     border: 2px solid #00afa5;
+	text-decoration: none !important;
 }
 
 /*Result Section Style */
