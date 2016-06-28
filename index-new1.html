@@ -10,9 +10,7 @@
     <link href="css/selectize.default.css" rel="stylesheet">
     <link href="css/bootstrap-slider.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
-	<style>
-	section{height:100%;}
-	</style>
+	
 </head>
 <body class="template001">
     <section class="main-bg page1" >
@@ -30,7 +28,7 @@
             <!-- Content Section-->
             <div class="container text-center">
                 <div class="landing-page">
-                    <h1 class="main-head">Heading Goes here</h1>
+                    <h1 class="main-head">Heading Goes here </h1>
                     <h2 class="sub-head">Optional sub heading goes here</h2>
                     <p class="description">
                         Desription of the calculator also optional and not mandatory. Desription of the calculator also optional and not mandatory.
@@ -70,7 +68,7 @@
                     </div>
                     <div class="col-md-6 col-sm-6 col-xs-12">
                         <div class=" powered-by">
-                            <span>Powered by</span>
+                            <span>Powered by </span>
                             <a href="#">
                                 <img src="images/vp-logo1.png" alt="Powered By">
                             </a>
@@ -98,7 +96,7 @@
 		</header>
 	</div>	
     <section class="page2 hide">
-		<div class="question-page">
+		<div class="questions">
         <div class=" col-md-8 col-md-offset-2">
             <div class="col-md-12" >
                 <div class="question-head">Design</div>
@@ -140,16 +138,15 @@
            </div>
     </section>
     <section class="page3 hide">
-		<div class="question-page">
+		<div class="questions">
         <div class=" col-md-8 col-md-offset-2">
 			<div class="col-md-12 "  >
-                <div class="question-head">Design</div>
-                <div class="question-subhead">Tell us a little bit more about project, so we can find the perfect teams for you!
-                </div>
+                <div class="question-head">Platform</div>
+                <div class="question-subhead">Tell us a little bit more about project, so we can find the perfect teams for you! </div>
                 <div class="question-section">
                     <div class="question-components">
                         <div class="check-comp">
-                            <div class="section-head">Question with a numeric textbox.</div>
+                            <div class="section-head">Which platform will the app be built on? <i class="fa fa-question-circle-o" aria-hidden="true"></i> </div>
                             <div class="section-desc"></div>
                             <label class="check-icon ic">
                                 <input type="checkbox" value="Value1 " name="checkbox1" id="check5">
@@ -182,9 +179,9 @@
 	</div>		
     </section>
     <section class="page4 hide">
-		<div class="question-page">
+		<div class="questions">
 			<div class=" col-md-8 col-md-offset-2">
-				<div class="col-md-12 " data-slide="5">
+				<div class="col-md-12 " data-slide="4">
 					<div class="question-head">Design</div>
 					<div class="question-subhead">Tell us a little bit more about project, so we can find the perfect teams for you!
 					</div>
@@ -194,16 +191,19 @@
 								<div class="section-head">Question with a numeric textbox.</div>
 								<div class="section-desc"></div>
 								<div class="input-field">
-									<input id="last_name" type="text">
+									<input id="last_name" type="number">
 								</div>
 							</div>
 						</div>
 						<div class="question-components">
-							<div class="">
-								<div class="section-head">Question with a numeric textbox.</div>
+							<div >
+								<div class="section-head">How many approximate number of screens will your app have? <i class="fa fa-question-circle-o" aria-hidden="true"></i></div>
 								<div class="section-desc"></div>
-								<span class="range">€ 10 </span>
-								<input id="range-slider1" data-slider-id='ex1Slider' type="text" data-slider-min="0" data-slider-max="20" data-slider-step="1" data-slider-value="14" /><span class="range range-max"> € 1000</span>
+								<div class='slider-example'>
+									<div class="well1">
+										<input id="ex13" type="text"/>
+									</div>
+								</div>
 							</div>
 						</div>
 						
@@ -222,14 +222,14 @@
 						
 					</div>
 					<div class="col-md-12 text-center">
-						<button class="btn prime-action next-step">Next</button>
+						<button class="btn prime-action sliding-next" data-slide="5" >Next</button>
 					</div>
 				</div>
 			</div>
 		</div>		
     </section>
     <section class="page5 hide">
-       <div class="question-page">
+       <div class="questions">
         <div class=" col-md-8 col-md-offset-2">
 			 <div class="col-md-12 " >
                 <div class="question-head">Design</div>
@@ -262,7 +262,7 @@
                     </div>
                 </div>
                 <div class="col-md-12 text-center">
-                    <button class="btn prime-action next-step">Next</button>
+                    <button class="btn prime-action sliding-next" data-slide="6">Next</button>
                 </div>
             </div>
 		</div>
@@ -270,8 +270,44 @@
             
     </section>
     <section class="page6 hide">
-       
-          
+	<div class="questions">
+        <div class=" col-md-8 col-md-offset-2">
+			<div class="col-md-12 ">
+					<div class="question-head">Design</div>
+					<div class="question-subhead">Tell us a little bit more about project, so we can find the perfect teams for you!
+					</div>
+					<div class="question-section">
+						<div class="question-components">
+							<div class="">
+								<div class="section-head">Question with a numeric textbox.</div>
+								<div class="section-desc"></div>
+								<div class="date">
+									<input type="text" class=""><span class="input-group-addon input-icon"><i class="material-icons">event</i></span>
+								</div>
+							</div>
+						</div>
+						<div class="question-components">
+							<div class="">
+								<div class="section-head">Question with a numeric textbox.</div>
+								<div class="section-desc"></div>
+								<div class="control-group">
+									<select id="select-beast" class="demo-default" placeholder="Select">
+										<option value="">Select</option>
+										<option value="4">Thomas Edison</option>
+										<option value="1">Nikola</option>
+										<option value="3">Nikola Tesla</option>
+										<option value="5">Arnold Schwarzenegger</option>
+									</select>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-12 text-center">
+						<button class="btn prime-action next-step">Next</button>
+					</div>
+				</div>
+          </div>
+		 </div> 
     </section>
 
 
@@ -283,6 +319,7 @@
     <script src="js/bootstrap-slider.min.js"></script>
     <script src="js/selectize.min.js"></script>
 <script>
+	$(document).ready(function(){
 	$('.date').datepicker({});
     $('#select-beast').selectize({
         create: true,
@@ -338,6 +375,20 @@
 			$(".questions-header").removeClass("que-fixed");
         }
     });
+	 
+		//Checkbox div color change on checked
+		$('input[type=checkbox]').on('change', function() {
+			var div = $(this).closest('.check-icon');
+			$(this).is(":checked") ? div.addClass("gray-bg") : div.removeClass("gray-bg");
+		});
+		//for range slider
+		$("#ex13").slider({
+			ticks: [0,1,2,3,  12345],
+			ticks_labels: ['0','','','', '12345'],
+			//ticks_snap_bounds: 30,
+			//value: 200
+		});
+	});
 	
 </script>
 </body>
