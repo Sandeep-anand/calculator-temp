@@ -41,6 +41,11 @@
 			</div>
 		</div>
 		<div class='slider-example'>
+			<div class="well1">
+				<input id="ex144" type="text"/>
+			</div>
+		</div>
+		<div class='slider-example'>
 			 <div class="well1">
 				<input id="ex20" type="text"
 					data-provide="slider"
@@ -73,6 +78,12 @@
 			$("#ex13").slider({
 				ticks: [0, 1, 2, 3, 12345],
 				ticks_labels: ['0', '', '', '', '12345'],
+				ticks_snap_bounds: 30,
+				value: 200
+			});
+			$("#ex144").slider({
+				ticks: [0, 1, 2, 3, 4],
+				ticks_labels: ['0', '1', '2', '3', '4'],
 				ticks_snap_bounds: 30,
 				value: 200
 			});
