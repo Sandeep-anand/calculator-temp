@@ -634,12 +634,18 @@ a.green-head:active {
 
 /*Result Section Style */
 .result-section {background:#f9f9f9; width:100%;height:100%; position:absolute; font-family:montserratregular;}
-.result-section .top-head { float:left; width:100%;background:#eeeeee;	min-height:50px; border-bottom:1px solid #e6e6e6; font-family:montserratregular;padding:12px 50px;}
-.result-section .top-head h4{	color:#6f7072;font-size:18px; font-family:montserratregular;}
+.result-section .top-head { float:left; width:100%;background:#eeeeee;	min-height:50px; border-bottom:1px solid #e6e6e6; font-family:montserratregular;padding:10px 50px;}
+.result-section .top-head h4{	color:#6f7072;font-size:24px; text-transform:uppercase; font-family:montserratregular;}
 .result-section .top-head h4 span{ color:#00aea5; font-size:24px;}
+.result-section  .share-link{ float:left; text-align:right;}
+.result-section  .share-link ul{ margin:5px 0; padding:0; float:right;}
+.result-section  .share-link ul li{ float:left; display:inline-block;}
+.result-section  .share-link ul li span{ padding:0px 10px; color:#00aea5; font-size:18px; font-weight:bold;}
+.result-section  .share-link ul li a{ float:left; display:inline-block; text-decoration:none; color:#6e7071; font-size:18px; padding:5px;} 
+
 .result-section .content-section{ float:left; padding:0;}
 .result-section .left-section{display:table;}
-.result-section .mid-section{padding: 40px; text-align: center; /* float: left; */ display: table-cell; vertical-align: middle;height: 85vh;}
+.result-section .mid-section{ text-align: center; /* float: left; */ display: table-cell; vertical-align: middle;height: 85vh;}
 .result-section .mid-section .small-top-sec{float:left; margin:3% 0;}
 .result-section .mid-section .small-top-sec h4{color:#00aea5;	text-align:center; font-size:30px; font-family:montserratregular;}
 .result-section .mid-section .small-sec{ float:left; padding:5% 0 !important; }
@@ -651,7 +657,7 @@ a.green-head:active {
 .result-section  .cta-outer{ float:left; margin:40px 0;}
 .bordered-btn{background-color: #f9f9f9;  color: #00afa5;padding: 10px 40px; border: 2px solid #00afa5;text-decoration: none !important; transition: background-color 0.5s ease; }
 .bordered-btn:hover{ background-color: #00afa5; color: #fff;}
-.result-section .right-section{background:#eeeeee;border-left:1px solid #dfdfdf; display:table; }
+.result-section .right-section{background:#eeeeee;border-left:1px solid #dfdfdf; display:table; box-shadow: inset 0px 0px 10px rgba(0,0,0,0.1);}
 .result-section .internal-sec{display:table-cell; vertical-align:top; height:90vh;  }
 .result-section .right-section .internal-sec h3 {color:#00aea5; float:left;}
 .result-section .right-section .internal-sec h3 i{ font-size:30px; float:left;}
