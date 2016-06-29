@@ -118,9 +118,10 @@ header .logo span {color: #fff;font-size: 18px;margin-left: 15px;font-family: mo
 
 
 /* counter Buttons */
-.input-group-btn input{ border:0;}
-.btn-number{ border:0; background:#fff !important;}
-.btn-number:hover{ border:0; }
+.counter{  float:left; padding:5px;  border:1px solid #dcdddf; font-family:montserrat-light; margin-bottom:20px;  }
+.qty {width: 100px !important;height: 25px;text-align: center; float:left; border:none !important; margin-bottom:0 !important; font-size:16px !important;}
+.qtyplus { width:25px; height:25px; background:none; float:left; margin-left:10px; cursor:pointer; font-size:20px;  padding:5px; color:#00aea5;}
+.qtyminus { width:25px; height:25px; float:left; margin-right:10px; cursor:pointer; font-size:20px; padding:5px;color:#00aea5;}
 
 
 /*input*/
