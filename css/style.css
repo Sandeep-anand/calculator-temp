@@ -123,6 +123,26 @@ header .logo span {color: #fff;font-size: 18px;margin-left: 15px;font-family: mo
 .qtyplus { width:25px; height:25px; background:none; float:left; margin-left:10px; cursor:pointer; font-size:20px;  padding:5px; color:#00aea5;}
 .qtyminus { width:25px; height:25px; float:left; margin-right:10px; cursor:pointer; font-size:20px; padding:5px;color:#00aea5;}
 
+/* switch Buttons */
+
+.switch-outer{width: 100%; float:left;padding: 8px 15px;border: 2px solid #eee;font-size: 16px;font-weight: normal;line-height: 16px;    border-bottom: 0;font-family: montserrat-light;}
+.switch-outer.last{border-bottom: 2px solid #eee;}	
+.switch-outer .switch-que{ float:left; padding:12px; font-size:16px; font-family:montserrat-light; color:#232f3f;}
+.switch-outer .switch {display: table-cell;vertical-align: middle;padding: 5px;}
+.switch-outer .cmn-toggle {position: absolute;margin-left: -9999px;visibility: hidden;}
+.switch-outer .cmn-toggle + label { display: block; position: relative; cursor: pointer; outline: none; -webkit-user-select: none;
+  -moz-user-select: none; -ms-user-select: none; user-select: none;}
+.switch-outer input.cmn-toggle-round-flat + label {padding: 2px; width: 62px; height: 30px; background-color: #00aea5; -webkit-border-radius: 60px;  -moz-border-radius: 60px; -ms-border-radius: 60px; -o-border-radius: 60px; border-radius: 60px; -webkit-transition: background 0.4s;  -moz-transition: background 0.4s; -o-transition: background 0.4s; transition: background 0.4s;}
+.switch-outer input.cmn-toggle-round-flat + label:before, input.cmn-toggle-round-flat + label:after {display: block;position: absolute; content: "";}
+.switch-outer input.cmn-toggle-round-flat + label:before { top: 2px; left: 2px; bottom: 2px; right: 2px; background-color: #fff; -webkit-border-radius: 60px;  -moz-border-radius: 60px; -ms-border-radius: 60px; -o-border-radius: 60px; border-radius: 60px; -webkit-transition: background 0.4s;  -moz-transition: background 0.4s; -o-transition: background 0.4s; transition: background 0.4s;}
+.switch-outer input.cmn-toggle-round-flat + label:after { top: 4px; left: 4px; bottom: 4px; width: 23px; background-color: #00aea5; -webkit-border-radius: 52px;
+  -moz-border-radius: 52px;  -ms-border-radius: 52px; -o-border-radius: 52px; border-radius: 52px; -webkit-transition: margin 0.4s,background 0.4s; -moz-transition: margin 0.4s, background 0.4s;  -o-transition: margin 0.4s, background 0.4s; transition: margin 0.4s, background 0.4s;}
+.switch-outer input.cmn-toggle-round-flat:checked + label {  background-color: #00aea5;}
+.switch-outer input.cmn-toggle-round-flat:checked + label:after { margin-left: 30px; background-color: #00aea5;}
+
+
+
+
 
 /*input*/
 
