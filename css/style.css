@@ -228,7 +228,7 @@ textarea.materialize-textarea {
 .cir{margin-left:-10px; margin-top:2px;}
 .range-slider{text-align:center;}
 .slider.slider-horizontal{width:96%; padding:30px 0}
-.slider.slider-horizontal .slider-tick-label-container .slider-tick-label{ font-family:montserrat-light; font-size:16px; color:#232f3f; width:100%;}
+.slider.slider-horizontal .slider-tick-label-container .slider-tick-label{ font-family:montserrat-light; font-size:16px; color:#00aea5; width:100%;}
 .slider.slider-horizontal .slider-tick-label-container { white-space: nowrap; margin-top: 7px !important;}
 .tooltip.top .tooltip-arrow {margin-left: -8px !important;}
 
