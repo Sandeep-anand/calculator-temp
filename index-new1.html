@@ -504,7 +504,11 @@
 			$(this).is(":checked") ? div.addClass("gray-bg") : div.removeClass("gray-bg");
 		});
 		
-		
+		//Radio button div color change on checked
+		$('input:radio').click(function() {
+			$('input:radio[name='+$(this).attr('name')+']').parent().removeClass('active');
+				$(this).parent().addClass('active');
+		});
 		
 		//for range slider
 		$("#ex13").slider({

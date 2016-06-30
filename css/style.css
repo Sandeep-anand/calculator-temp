@@ -115,10 +115,12 @@ header .logo span {color: #fff;font-size: 18px;margin-left: 15px;font-family: mo
     border-bottom: 0;
     font-family: montserrat-light;
 }
+input { cursor:pointer; }
+.radio-icon .active{ background:#f9f9f9;}
 .radio-icon.last {
     border: 2px solid #eee;
 }
-.radio-icon.gray-bg{ background:#f9f9f9;}
+
 .radio-icon:hover,
 .radio-icon.last:hover {
     background: #f9f9f9;
