@@ -118,13 +118,13 @@ header .logo span {color: #fff;font-size: 18px;margin-left: 15px;font-family: mo
 .radio-icon.last {
     border: 2px solid #eee;
 }
+.radio-icon.gray-bg{ background:#f9f9f9;}
 .radio-icon:hover,
 .radio-icon.last:hover {
     background: #f9f9f9;
     cursor: pointer;
 }
-
-.radio-btn label .radio-btn input[type="radio"]:checked+label {
+.radio-icon .radio-btn label .radio-btn input[type="radio"]:checked+label {
     color: #00aea5;
     font-size: 15px;
 }
@@ -137,18 +137,17 @@ header .logo span {color: #fff;font-size: 18px;margin-left: 15px;font-family: mo
 .radio-icon .radio-btn label::after {
     border: 3px solid #00aea5;
 }
-.radio-icon label {
-    font-weight: 500;
-}
+
 .radio-btn {
     position: relative;
     padding-left: 20px
 }
-
-.radio-btn input[type="radio"] {
+.radio-icon .radio-btn label{font-weight: 500;}
+.radio-icon .radio-btn input[type="radio"] {
     position: absolute;
     opacity: 0;
-    z-index: 1
+    z-index: 1;
+	
 }
 .radio-btn label {
     display: inline-block;
@@ -203,33 +202,27 @@ header .logo span {color: #fff;font-size: 18px;margin-left: 15px;font-family: mo
     opacity: 0.3
 }
 
-
 .radio-btn input[type="radio"]:checked+label {
     color: #000
 }
-
 
 .radio-btn input[type="radio"]:checked+label::after {
     border: 3px solid #000
 }
 
-
 .radio-btn input[type="radio"]:checked+label::before {
     opacity: 1
 }
-
 
 .radio-btn input[type="radio"]:disabled+label {
     color: #787878;
     cursor: default
 }
 
-
 .radio-btn input[type="radio"]:disabled+label::after {
     border: 3px solid #787878;
     background-color: #ffffff
 }
-
 
 .radio-btn input[type="radio"]:disabled+label::before {
     display: none
