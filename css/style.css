@@ -690,6 +690,7 @@ a.green-head:active {
 .result-section  .share-link ul li{ float:left; display:inline-block;}
 .result-section  .share-link ul li span{ padding:0px 10px; color:#00aea5; font-size:18px; font-weight:bold;}
 .result-section  .share-link ul li a{ float:left; display:inline-block; text-decoration:none; color:#6e7071; font-size:18px; padding:5px;} 
+.result-section  .share-link ul li a .material-icons{font-size:18px !important; margin-top:3px; } 
 
 .result-section .content-section{ float:left; padding:0;}
 .result-section .left-section{display:table;}
