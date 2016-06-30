@@ -107,7 +107,7 @@ header .logo span {color: #fff;font-size: 18px;margin-left: 15px;font-family: mo
 
 .radio-icon {
     width: 100%;
-    padding: 12px 15px;
+    /*padding: 12px 15px; */
     border: 2px solid #eee;
     font-size: 16px;
     font-weight: normal;
@@ -142,7 +142,7 @@ input { cursor:pointer; }
 
 .radio-btn {
     position: relative;
-    padding-left: 20px
+    padding: 15px 20px
 }
 .radio-icon .radio-btn label{font-weight: 500;}
 .radio-icon .radio-btn input[type="radio"] {
