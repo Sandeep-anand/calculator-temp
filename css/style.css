@@ -123,7 +123,7 @@ header .logo span {color: #fff;font-size: 18px;margin-left: 15px;font-family: mo
     background: #f9f9f9;
     cursor: pointer;
 }
-.radio-icon .checkbox-btn label,
+
 .radio-btn label .radio-btn input[type="radio"]:checked+label {
     color: #00aea5;
     font-size: 15px;
@@ -140,22 +140,11 @@ header .logo span {color: #fff;font-size: 18px;margin-left: 15px;font-family: mo
 .radio-icon label {
     font-weight: 500;
 }
-body {
-    -webkit-animation: bugfix infinite 1s
-}
-@-webkit-keyframes bugfix {
-    from {
-        padding: 0
-    }
-    to {
-        padding: 0
-    }
-}
 .radio-btn {
     position: relative;
     padding-left: 20px
 }
-.radio-btn input[type="checkbox"],
+
 .radio-btn input[type="radio"] {
     position: absolute;
     opacity: 0;
@@ -214,34 +203,34 @@ body {
     opacity: 0.3
 }
 
-.radio-btn input[type="checkbox"]:checked+label,
+
 .radio-btn input[type="radio"]:checked+label {
     color: #000
 }
 
-.radio-btn input[type="checkbox"]:checked+label::after,
+
 .radio-btn input[type="radio"]:checked+label::after {
     border: 3px solid #000
 }
 
-.radio-btn input[type="checkbox"]:checked+label::before,
+
 .radio-btn input[type="radio"]:checked+label::before {
     opacity: 1
 }
 
-.radio-btn input[type="checkbox"]:disabled+label,
+
 .radio-btn input[type="radio"]:disabled+label {
     color: #787878;
     cursor: default
 }
 
-.radio-btn input[type="checkbox"]:disabled+label::after,
+
 .radio-btn input[type="radio"]:disabled+label::after {
     border: 3px solid #787878;
     background-color: #ffffff
 }
 
-.radio-btn input[type="checkbox"]:disabled+label::before,
+
 .radio-btn input[type="radio"]:disabled+label::before {
     display: none
 }
