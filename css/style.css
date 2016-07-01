@@ -156,7 +156,7 @@ input { cursor:pointer; }
     line-height: 24px;
     vertical-align: middle;
     position: relative;
-    padding-left: 20px;
+    padding-left: 30px;
     cursor: pointer;
     user-select: none;
     color: #424242
@@ -168,7 +168,7 @@ input { cursor:pointer; }
     height: 21px;
     left: 0;
     top: 0;
-    margin-left: -18px;
+    margin-left: 0px;
     background-color: #ffffff;
     border: 3px solid #00aea5;
     -webkit-border-radius: 3px;
@@ -184,7 +184,7 @@ input { cursor:pointer; }
     height: 5px;
     top: 6px;
     left: 6px;
-    margin-left: -18px;
+    margin-left: 0px;
     border: 3px solid #00aea5;
     border-top: none;
     border-right: none;
