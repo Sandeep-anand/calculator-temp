@@ -65,6 +65,7 @@ header .logo span {color: #fff;font-size: 18px;margin-left: 15px;font-family: mo
 .questions .question-subhead { font-family: montserrat-light;font-size: 18px;text-align: center;color: #232f3f; width: 50%; margin: 0 auto; margin-bottom: 30px;}
 .questions .question-section {width: 100%;border: 3px solid #dcdddf;display: inline-block;padding: 30px 40px; background:#fff;}
 .questions .section-head {font-size: 22px; margin-bottom: 10px;font-family: montserrat-light;	color: #666e78;}
+.questions .pull-left .section-head {font-size: 22px; margin-bottom: 10px;margin-top:15px;font-family: montserrat-light;	color: #666e78;}
 .questions .section-head i {color:#dcdddf; font-size:22px;}
 .questions .question-components {width: 100%;display: inline-block;}
 .questions .question-components .check-comp label{ margin-bottom:0;}
@@ -367,7 +368,7 @@ textarea.materialize-textarea {
 .range-slider{text-align:center;}
 .slider.slider-horizontal{width:96%; padding:30px 0}
 .slider.slider-horizontal .slider-tick-label-container .slider-tick-label{ font-family:montserrat-light; font-size:16px; color:#00aea5; width:100%;}
-.slider.slider-horizontal .slider-tick-label-container { white-space: nowrap; margin-top: 7px !important;}
+.slider.slider-horizontal .slider-tick-label-container { white-space: nowrap; margin-top: 3px !important;}
 .tooltip.top .tooltip-arrow {margin-left: -8px !important;}
 
 
