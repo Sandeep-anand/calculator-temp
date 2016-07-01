@@ -70,7 +70,7 @@ header .logo span {color: #fff;font-size: 18px;margin-left: 15px;font-family: mo
 .questions .question-components {width: 100%;display: inline-block;}
 .questions .question-components .check-comp label{ margin-bottom:0;}
 
-.questions .date-picker  .section-head{font-size: 22px;margin-bottom: 10px;font-family: montserrat-light;color: #666e78; margin-top:-20px;}
+.questions .date-picker-outer  .section-head{font-size: 22px;margin-bottom: 10px;font-family: montserrat-light;color: #666e78; margin-top:-20px;}
 /*theme style end */
 
 
