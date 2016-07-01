@@ -475,6 +475,7 @@ input { cursor:pointer; }
 .result-section .mid-section .mid-inner input{width: 43% !important;margin: 8px !important;border: 2px solid #cccccc !important;color: #b9b9b9;font-family: montserratregular;font-size: 14px !important; background:#ffffff;}
 .result-section .share-link span i{   margin-top: 10px;font-size: 16px;margin-left: 6px; color: #6e6f71;}
 .result-section .share-link span li{content: " | ";border-left: 1px solid #6e6f71;height: 18px;margin-top: 8px;margin-left:5px; margin-right:5px;}
+.result-section ul li h6{color:#6e6f71; margin-right:12px;}
 /*Result Section Style */
 
 
