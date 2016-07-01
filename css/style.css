@@ -1,10 +1,9 @@
+/*common css*/
 body {
     margin: 0;
     padding: 0;
     font-size: 14px; background:#f2f2f2;
 }
-
-
 input:not([type]),
 input[type=text],
 input[type=password],
@@ -33,9 +32,10 @@ textarea.materialize-textarea {
     box-sizing: border-box;
 }
 section{ height:100%;}
+.prime-action {font-family: montserratregular;font-size: 18px;color: #fff;margin-top: 20px; padding: 10px 4%;background: #00aea5;border-radius: 0 !important;}
+.btn.prime-action.focus,.btn.prime-action:focus,.btn.prime-action:hover {color: #fff; text-decoration: none;}
 
-
-
+/*common css ends*/
 
 /*Main Section Style */
 .main-bg {background: url("../images/temp-bg1.jpg") no-repeat center center fixed;-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;
@@ -58,8 +58,7 @@ header .logo span {color: #fff;font-size: 18px;margin-left: 15px;font-family: mo
 .input-section :-moz-placeholder { /* Firefox 18- */ color: #c4c4c6;  }
 .input-section ::-moz-placeholder {  /* Firefox 19+ */color: #c4c4c6; }
 .input-section :-ms-input-placeholder {color: #c4c4c6;}
-.prime-action {font-family: montserratregular;font-size: 18px;color: #fff;margin-top: 20px; padding: 10px 4%;background: #00aea5;border-radius: 0 !important;}
-.btn.prime-action.focus,.btn.prime-action:focus,.btn.prime-action:hover {color: #fff; text-decoration: none;}
+
 .date{ padding-left:0 !important;}
 .pr0{ padding-right:0 !important;}
 /*Content section end*/
