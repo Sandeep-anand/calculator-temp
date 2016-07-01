@@ -65,7 +65,7 @@ header .logo span {color: #fff;font-size: 18px;margin-left: 15px;font-family: mo
 .questions .question-subhead { font-family: montserrat-light;font-size: 18px;text-align: center;color: #232f3f; width: 50%; margin: 0 auto; margin-bottom: 30px;}
 .questions .question-section {width: 100%;border: 3px solid #dcdddf;display: inline-block;padding: 30px 40px; background:#fff;}
 .questions .section-head {font-size: 22px; margin-bottom: 10px;font-family: montserrat-light;	color: #666e78;}
-.questions .pull-left .section-head {font-size: 22px; margin-bottom: 10px;margin-top:15px;font-family: montserrat-light;	color: #666e78;}
+.questions  .file-outer .section-head {font-size: 22px; margin-bottom: 10px;font-family: montserrat-light;	color: #666e78;}
 .questions .section-head i {color:#dcdddf; font-size:22px;}
 .questions .question-components {width: 100%;display: inline-block;}
 .questions .question-components .check-comp label{ margin-bottom:0;}
