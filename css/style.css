@@ -8,7 +8,7 @@ section{ height:100%;}
 
 /*Main Section Style */
 .main-bg {background: url("../images/temp-bg1.jpg") no-repeat center center fixed;-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;
-    background-size: cover;width: 100%;height: 100vh;display:table;}
+    background-size: cover;width: 100%;height: 100vh;display:table; overflow:hidden;}
 	
 /*header section*/
 header {padding: 10px;}
