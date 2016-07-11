@@ -38,7 +38,7 @@ textarea.materialize-textarea {
 .template001{ width: 100%; height: 100%;list-style-position: outside; margin:0; padding:0;}
 
 /*Main Section Style */
-.main-bg {background: url("../images/temp-bg1.jpg") no-repeat center center fixed;-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;   background-size: cover;width: 100%;height: 100%; position:relative; vertical-align: middle;
+.main-bg {background: url("../images/temp2-bg.jpg") no-repeat center center fixed;-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;   background-size: cover;width: 100%;height: 100%; position:relative; vertical-align: middle;
   text-align: center; }
 	
 /*header section*/
@@ -52,26 +52,28 @@ header .logo span {color: #fff;font-size: 18px;margin-left: 15px;font-family: mo
 .landing-page {width: 100vw;display: table-cell;vertical-align: middle;height: 72vh;text-align:center;  }
 .input-outer {    width: 100vw; display: table-cell; vertical-align: middle;text-align: center;  }
 .cta-outer {    width: 100vw; display: table-cell; vertical-align: middle; height: 20vh;text-align: center;  }
-.main-head {font-family: montserratregular;font-size: 48px;color: #00e3d8;word-wrap: break-word;}
-.sub-head {font-family: montserratregular;font-size: 24px;color: #e5e5e6;word-wrap: break-word;}
-.description {font-family: montserratregular;font-size: 14px;color: #b8b9bb;margin-top: 25px;word-wrap: break-word; padding: 0 20%;}
+.main-head {font-family:oxygenbold;font-size: 60px;color: #ffffff;word-wrap: break-word;margin:0 auto;min-height:20px; padding:0 30%;}
+.sub-head {font-family: oxygenregular;font-size: 24px;color: #ffffff;word-wrap: break-word;}
+.description {font-family: oxygenregular;font-size: 18px;color: #ffffff;margin-top: 25px;word-wrap: break-word; padding: 0 10%;}
 .input-section{ width:65%; margin:30px auto 0 auto ;}
 .input-section input{ width: 43% !important; margin: 8px !important; border:2px solid #c4c4c6 !important; color:#fefeff; font-family:montserratregular; font-size:14px !important;}
 .input-section ::-webkit-input-placeholder {color: #c4c4c6;}
 .input-section :-moz-placeholder { /* Firefox 18- */ color: #c4c4c6;  }
 .input-section ::-moz-placeholder {  /* Firefox 19+ */color: #c4c4c6; }
 .input-section :-ms-input-placeholder {color: #c4c4c6;}
-.prime-action {font-family: montserratregular;font-size: 18px;color: #fff;margin-top: 20px; padding: 10px 4%;background: #00aea5;border-radius: 0 !important;}
-.btn.prime-action.focus,.btn.prime-action:focus,.btn.prime-action:hover {color: #fff; text-decoration: none;}
-
+.prime-action {font-family:oxygenregular;font-size: 18px;color: #323232;margin-top: 20px; padding: 10px 4%;background: #ffffff;-webkit-border-radius: 30px;-moz-border-radius: 30px;border-radius: 30px;}
+.btn.prime-action.focus,.btn.prime-action:focus,.btn.prime-action:hover {color: #323232; text-decoration: none;}
+.btn.prime-action.focus,.btn.prime-action:focus,.btn.prime-action:active {color: #323232; text-decoration: none;outline:none;}
+.btn.prime-action.focus,.btn.prime-action:focus,.btn.prime-action:visited {color: #323232; text-decoration: none;}
+.btn.prime-action.focus,.btn.prime-action:focus,.btn.prime-action:focus {color: #323232; text-decoration: none;}
 .footer-nav-outer{ position:absolute; bottom:0; width:100%; padding:10px;}
 .footer-nav { margin: 0; padding: 0; float:left;}
 .footer-nav li {float: left;display: inline;}
-.footer-nav li a {color: #fff;font-family: montserratregular;font-size: 12px;text-decoration: none;}
+.footer-nav li a {color: #fff;font-family:oxygenregular ;font-size: 12px;text-decoration: none;}
 .footer-nav li a:hover { color: #fff;}
-.footer-nav li span {color: #fff;font-family: montserratregular;font-size: 12px;text-decoration: none;padding: 5px 10px;}
+.footer-nav li span {color: #fff;font-family: oxygenregular;font-size: 12px;text-decoration: none;padding: 5px 10px;}
 .powered-by {float: right;text-align: right;}
-.powered-by span { color: #fff;font-size: 14px; margin-right: 5px; font-family: montserratregular;}
+.powered-by span { color: #fff;font-size: 12px; margin-right: 5px; font-family: oxygenregular;}
 
 
 /*theme style*/
