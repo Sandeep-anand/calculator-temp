@@ -1,6 +1,7 @@
 @media only screen and (max-width: 1024px) and (orientation: portrait) {
+	.result-section  .share-link{text-align:center; width:100%;}
+	.result-section  .share-link ul{float:none;}
     .result-section .top-head{ width:100%; text-align:center; }
-	.result-section  .share-link{text-align:center; width:88%;}
 	.result-section .left-section{width:100%;}
 	.w33{width:100%; margin:3% 0 !important;}
 	.result-section .mid-section .mid-inner input{width:100% !important;}
@@ -8,17 +9,17 @@
 	.result-section .right-section{width:100%;}
 	.result-section .right-section h4{text-align:center;}
 	.result-section .mid-section .mid-inner{width:100%; margin:0 auto;}
-	.result-section .right-section h5{margin: 0px 40%;}
+	.result-section .right-section h5{width:100%; text-align:center;}
 	.result-section .right-section .txt h5{ text-align:center; margin:0 auto;}
-	.result-section .right-section .internal-sec .res h3{margin:20px 26% 5%;}
-	.result-section .right-section .internal-sec h3 i{font-size:22px;padding-left:0px;margin-top:2px;}
-	.result-section .right-section .internal-sec h3 span{font-size:20px;}
+	.result-section .right-section .internal-sec  h3{width: 100%;text-align: center;}
+	.result-section .right-section .internal-sec h3 i{font-size:22px;padding-left:0px;margin-top:2px;float:none; vertical-align:middle;  display:inline-block;}
+	.result-section .right-section .internal-sec h3 span{font-size:20px; float:none; padding:0px;vertical-align:middle;display:inline-block;}
 	.w50{width:100%;}
-	.txt{text-align:center;}
 	}
-	@media only screen and (max-width: 1024px) and (orientation: landscape) {
-    .result-section .top-head{ width:100%; text-align:center; }
-	.result-section  .share-link{text-align:center; width:65%;}
+@media only screen and (max-width: 1023px) and (orientation: landscape) {
+	.result-section  .share-link{text-align:center; width:100%;}
+	.result-section  .share-link ul{float:none;}
+	.result-section .top-head{ width:100%; text-align:center; }
 	.result-section .left-section{width:100%;}
 	.w33{width:100%; margin:3% 0 !important;}
 	.result-section .mid-section .mid-inner input{width:100% !important;}
@@ -26,14 +27,29 @@
 	.result-section .right-section{width:100%;}
 	.result-section .right-section h4{text-align:center;}
 	.result-section .mid-section .mid-inner{width:100%; margin:0 auto;}
-	.result-section .right-section h5{margin: 0px 45%;}
+	.result-section .right-section h5{width:100%; text-align:center;}
 	.result-section .right-section .txt h5{ text-align:center; margin:0 auto;}
-	.result-section .right-section .internal-sec .res h3{margin:20px 34% 5%;}
-	.txt{text-align:center;}
+	.result-section .right-section .internal-sec  h3{width: 100%;text-align: center;}
+	.result-section .right-section .internal-sec h3 i{font-size:22px;padding-left:0px;margin-top:2px;float:none;vertical-align:middle;
+    display:inline-block;}
+	.result-section .right-section .internal-sec h3 span{font-size:20px; float:none; padding:0px;vertical-align: middle;display: inline-block;}
 	.w50{width:100%;}
+}
+@media only screen and (min-width : 768px) and (max-width : 992px){ 
+	.result-section .top-head{ width:100%; text-align:center; }
+	.result-section .mid-section .mid-inner input{width:47% !important;}
+	.result-section .mid-section h6{padding:2% 5%;}
+	.result-section  .share-link{width:100%; text-align:center;}
+	.result-section  .share-link ul{float:none;}
 	}
-	@media only screen and (max-width: 1366px) and (min-width:1200px) {
+	@media only screen and (max-width:320px) and (orientation: landscape){
+	.result-section .top-head{padding:7px 10px;}
+	.result-section  .share-link{width:100%; text-align:center; float:none; display:inline-block;}
+}
+
+@media only screen and (max-width:319px){
+	.result-section .top-head{padding:7px 10px;}
+	.result-section  .share-link{width:100%; text-align:center;}
+}
+
 	
-	}
-	@media only screen and (min-width:1366){
-	}

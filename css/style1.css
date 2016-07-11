@@ -420,11 +420,6 @@ input { cursor:pointer; }
 }
 /*Components end */
 
-
-
-
-
-
 /*Date picker color set*/
 .datepicker table tr td.active, .datepicker table tr td.active.disabled, .datepicker table tr td.active.disabled:hover, .datepicker table tr td.active:hover {
     background-color: #006dcc !important;
@@ -442,11 +437,11 @@ input { cursor:pointer; }
 .result-section .top-head { position:relative; z-index:1; float:left; width:100%;background:#eeeeee;	min-height:50px; border-bottom:1px solid #e6e6e6; font-family:montserratregular;padding:10px 50px; box-shadow: 0px 1px 6px rgba(0,0,0,0.1);}
 .result-section .top-head h4{	color:#6f7072;font-size:24px; text-transform:uppercase; font-family:montserratregular;}
 .result-section .top-head h4 span{ color:#00aea5; font-size:24px;}
-.result-section  .share-link{ float:left; text-align:right; width:50%;}
+.result-section  .share-link{ float:left; width:50%;}
 .result-section  .share-link ul{ margin:5px 0; padding:0; float:right;}
-.result-section  .share-link ul li{ float:left; display:inline-block;}
+.result-section  .share-link ul li{display:inline-block;}
 .result-section  .share-link ul li span{ padding:0px 10px; color:#00aea5; font-size:18px; font-weight:bold;}
-.result-section  .share-link ul li a{ float:left; display:inline-block; text-decoration:none; color:#6e7071; font-size:18px; padding:5px;} 
+.result-section  .share-link ul li a{text-decoration:none; color:#6e7071; font-size:18px; padding:5px;} 
 .result-section  .share-link ul li a .material-icons{font-size:18px !important; margin-top:3px; } 
 
 .result-section .content-section{ float:left; padding:0; background:#ffffff; width:100%;}
